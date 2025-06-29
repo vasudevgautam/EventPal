@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { useEventContext } from "../context/EventContext";
-import { hover, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 const EventDetail = () => {
   const { id } = useParams();
   const { events } = useEventContext();
