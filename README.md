@@ -55,13 +55,21 @@ Fully responsive, feature-rich, and beginner-friendly — built with React, Reac
 
 ## 📸 Screenshots
 
-> _(Add these once you have your UI screenshots!)_
+### ✅ Dashboard  
+![Dashboard](public/screenshots/dashboard.png)
 
-- ✅ Dashboard
-- 📝 Create Event
-- 👤 Login
-- 📅 Calendar View
-- 📱 Mobile Navbar
+### 📝 Create Event  
+![Create Event](public/screenshots/create-event.png)
+
+### 👤 Login  
+![Login](public/screenshots/login.png)
+
+### 📅 Calendar View  
+![Calendar View](public/screenshots/calendar.png)
+
+### 📱 Mobile Navbar  
+![Mobile Navbar](public/screenshots/mobile-navbar.png)
+
 
 ---
 
