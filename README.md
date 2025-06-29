@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# 🎉 EventPal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**EventPal** is a modern React-based web app for discovering, creating, and managing local or online events like webinars, workshops, and meetups.
 
-## Available Scripts
+Fully responsive, feature-rich, and beginner-friendly — built with React, React Router, Context API, and Framer Motion.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🗂 Event Discovery
+- View a list of upcoming events
+- Search and filter by **type**, **category**, or **date**
+- Bookmark or attend events
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✍️ Create Events
+- Add title, description, date, location, category
+- Choose between **online/offline**
+- Form validation included
 
-### `npm test`
+### 📅 Calendar View
+- View all upcoming events in a timeline or calendar layout
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🌗 Theme Toggle
+- Light/Dark mode supported
+- Theme is saved in localStorage
 
-### `npm run build`
+### 👤 Mock Login
+- Simple username-based login system
+- User data saved in localStorage
+- Login/logout UI and protected routes
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📱 Responsive Design
+- Optimized for both desktop and mobile
+- Responsive navbar with “More” dropdown on small screens
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎯 Animations
+- Framer Motion scroll + route animations
+- Animated dropdown menus for mobile
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠 Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Tech               | Description                   |
+|--------------------|-------------------------------|
+| React              | Core UI framework             |
+| React Router DOM   | Client-side routing           |
+| Framer Motion      | Animations and transitions    |
+| Context API        | State management              |
+| LocalStorage       | Persistent user + event data  |
+| Vanilla CSS / Inline| Styling (or Tailwind optional)|
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📸 Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> _(Add these once you have your UI screenshots!)_
 
-## Learn More
+- ✅ Dashboard
+- 📝 Create Event
+- 👤 Login
+- 📅 Calendar View
+- 📱 Mobile Navbar
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔧 Installation
 
-### Code Splitting
+```bash
+git clone https://github.com/your-username/EventPal.git
+cd EventPal
+npm install
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+----
+📁 Folder Structure
+bash
+Copy
+Edit
+src/
+├── components/         # Navbar, EventCard, etc.
+├── pages/              # Home, CreateEvent, EventDetail, etc.
+├── context/            # AuthContext, EventContext, ThemeContext
+├── App.js
+└── index.js
 
-### Analyzing the Bundle Size
+---
+💡 Future Enhancements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+✅ Google Calendar Integration
 
-### Making a Progressive Web App
+🔐 OAuth login (Google, GitHub)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🔔 Event Reminders
 
-### Advanced Configuration
+📊 Event analytics dashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🧾 Invite RSVP email simulation
+--
+🧑‍💻 Author
+Vasudev Gautam
+Built for learning and building modern React UIs.
